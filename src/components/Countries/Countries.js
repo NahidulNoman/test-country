@@ -11,7 +11,7 @@ const Countries = () => {
     },[])
     return (
         <div>
-            <h3 className='m-5'>All Countries Length : {countries.length}</h3>
+            <h3 className='m-5'>Countries Length : {countries.length}</h3>
             <div className='all-country container'>
             {
                 countries.map(country => <Country 
